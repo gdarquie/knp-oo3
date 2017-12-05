@@ -25,6 +25,7 @@ class Container
                 $this->configuration['db_dsn'],
                 $this->configuration['db_user'],
                 $this->configuration['db_pass']
+
             );
 
             $this->pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
